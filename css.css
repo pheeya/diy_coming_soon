@@ -8,8 +8,18 @@ body {
   background-image: url(logo_large.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 66vh;
-  background-size: 850px;
+  background-position-y: -5%;
+  background-size: 1500px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(22, 22, 22, 0.959);
+  z-index: -1;
 }
 
 * {
