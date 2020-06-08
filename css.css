@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+html {
+  min-width: 320px;
+}
+
+body {
+  background-color: #242424;
+  background-image: url(logo_large.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 66vh;
+  background-size: 850px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+}
+.main .logo_small {
+  text-align: center;
+  margin: auto;
+}
+.main .logo_small .logo_fixed {
+  width: 130px;
+}
+.main .description {
+  max-width: 1300px;
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+@media (max-width: 550px) {
+  .main .description {
+    font-size: 14px;
+    margin: 20px auto;
+  }
+  .main .logo_small .logo_fixed {
+    width: 85px;
+  }
+}
+.main .icons {
+  border-radius: 3px;
+  max-width: 650px;
+  margin: 10px auto;
+  margin-top: 50px;
+}
+.main .icons .instagram {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 15px;
+  background-color: rgba(26, 26, 26, 0.815);
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+.main .icons .instagram .text {
+  color: white;
+  text-transform: uppercase;
+}
+.main .icons .instagram svg {
+  width: 30px;
+  height: 30px;
+  vertical-align: -8px;
+  margin: auto 10px;
+  fill: #fafafa;
+}
+@media (max-width: 400px) {
+  .main .icons .instagram .text {
+    font-size: 13px;
+  }
+  .main .icons .instagram svg {
+    margin: auto 5px;
+    vertical-align: -10px;
+  }
+}
+.main .icons .instagram:hover {
+  background-color: rgba(32, 32, 32, 0.986);
+}
+@media (max-width: 550px) {
+  .main .icons {
+    margin-top: 10px;
+  }
+}
+.main .image {
+  max-width: 550px;
+  margin: 10px auto;
+}
+.main .image img {
+  width: 100%;
+}
+.main .content {
+  color: white;
+}
+.main .content h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  font-size: 70px;
+}
+.main .content .date {
+  text-align: center;
+  font-size: 90px;
+  max-width: 250px;
+  margin: auto;
+  text-transform: uppercase;
+  color: orange;
+  font-weight: bolder;
+  position: relative;
+  line-height: 1;
+}
+.main .content .date .th {
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  text-transform: lowercase;
+}
+@media (max-width: 550px) {
+  .main .content h1 {
+    font-size: 40px;
+  }
+  .main .content .date {
+    font-size: 70px;
+  }
+}
+
+/*# sourceMappingURL=css.css.map */
